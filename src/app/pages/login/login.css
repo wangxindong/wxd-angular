@@ -1,0 +1,42 @@
+.auth-main {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(to right, #4568a6 , #4568b8);
+  background-color:rgba(231,231,231,0.5);
+}
+
+.auth-block {
+    width: 540px;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #fff;
+    padding: 50px;
+    background: rgba(0,0,0,0.5);
+}
+
+.auth-block>h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.forgot-pass {
+    display: block;
+    text-align: right;
+    float: right;
+    color: #0091d9;
+    z-index: 2;
+}
+
+.btn-auth {
+    border-radius: 0.4rem;
+}
+
+.btn-auth:enabled:hover{
+    transform: scale(1.5,1.2);
+}
+
+
+
